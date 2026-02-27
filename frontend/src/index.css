@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   ROOT FIX (VERY IMPORTANT)
+========================= */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal zoom shift */
+}
+
+/* =========================
+   PREMIUM BACKGROUND
+========================= */
+
+body {
+  background: radial-gradient(circle at 20% 20%, #0f3d3e, #06181b 60%);
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+}
+
+/* =========================
+   GLASS SHINE ANIMATION
+========================= */
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shine {
+  animation: shine 4s linear infinite;
+}
