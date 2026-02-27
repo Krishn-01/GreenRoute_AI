@@ -14,6 +14,7 @@
     "@tsparticles/slim": "^3.9.1",
     "framer-motion": "^12.34.3",
     "lodash": "^4.17.23",
+    "lucide-react": "^0.575.0",
     "prop-types": "^15.8.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
